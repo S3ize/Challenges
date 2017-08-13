@@ -5,7 +5,7 @@ The function at 1000c6c0 is the maliciously injected code from the infiltrator.
 
 The [Decode.py] (Decode.py) is the python code to extract [Stage 1 shellcode](Stage1.bin). [Stage1.idb](Stage1.idb) contains the IDA analysis file with some comments. The Stage1 is a mere loader of the Stage2, so it is not the focus of this analysis.
 
-The call instruction at dfb10 will lead to decoded [Stage 2 shellcode](Stage2.bin]. The [Stage2.idb](Stage2.idb) file contains the IDA file.
+The call instruction at dfb10 will lead to decoded [Stage 2 shellcode](Stage2.bin). The [Stage2.idb](Stage2.idb) file contains the IDA file.
 
 ```
 seg000:000DFB10             call_stage2_shellcode:                  ; call stage2 shellcode

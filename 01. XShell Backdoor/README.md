@@ -14,5 +14,9 @@ seg000:000DFB10 FF D7                       call    edi
 
 Stage2 shellcode uses CreateThread to create new thread from ThreadStart function. This function has the main C2 connection loop. It uses UDP communication which is initialized at InitUDPSocket function. The important function names and IP are encoded using shift/XOR type encoding scheme which is also used for stage1 shellcode encoding. The main functions of the stage 2 shellcode is typical backdoor.
 
+The C2 communication routine looks like following which uses 8.8.8.8:53 UDP as it's end point.
+
+![SendPacket](SendPacket.png "SendPacket")
+
 # Credits
 TI-Secret-Channel

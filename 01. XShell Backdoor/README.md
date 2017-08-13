@@ -1,5 +1,5 @@
 # Background
-This is a dumped files from NetSarang XShell backdoor. The target analysis file's sha1 is 462a02a8094e833fd456baf0a6d4e18bb7dab1a9f74d5f163a8334921a4ffde8.
+These are dumped files from NetSarang XShell backdoor. The target analysis file's sha1 is 462a02a8094e833fd456baf0a6d4e18bb7dab1a9f74d5f163a8334921a4ffde8.
 
 The function at 1000c6c0 is the maliciously injected code from the infiltrator.
 

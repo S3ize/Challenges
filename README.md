@@ -1,1 +1,2 @@
 # CrowdCTF
+CrowdCTF is an effort to build and document real world examples that can be used for reverse engineering and exploit writing projects. Mostly this repository will provide raw data that can be used by the project.
